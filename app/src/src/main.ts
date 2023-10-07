@@ -1,7 +1,9 @@
 import './style.css'
 
 
-import { Scene, PerspectiveCamera, WebGLRenderer, DirectionalLight, BoxGeometry, Mesh, MeshPhongMaterial, Vector3, AnimationAction, AnimationMixer, Object3DEventMap, Group, Quaternion, AmbientLight } from 'three';
+import { 
+  Scene, PerspectiveCamera, WebGLRenderer, DirectionalLight, BoxGeometry, Mesh, MeshPhongMaterial, Vector3,
+  AnimationAction, AnimationMixer, Object3DEventMap, Group, AmbientLight } from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 import { transformInputToCamera } from './input';
