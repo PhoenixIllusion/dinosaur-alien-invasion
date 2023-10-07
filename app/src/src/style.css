@@ -12,11 +12,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  background: #333333;
 }
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+#app {
+  height: 0;
+  flex: 1;
+}
+canvas {
+  height: 100vh;
+  width: 100vw;
 }

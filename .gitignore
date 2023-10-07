@@ -18,4 +18,4 @@ service-account-credentials.json
 yarn.lock
 **/.DS_Store
 
-public
+/public
