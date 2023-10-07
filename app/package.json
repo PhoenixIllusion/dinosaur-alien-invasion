@@ -1,7 +1,6 @@
 {
-  "name": "dinosaur-alien-invasion-web",
-  "private": true,
-  "version": "0.0.0",
+  "name": "dinosaur-alien-invasion",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +8,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/three": "0.156.0",
+    "three": "0.157.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "firebase": "10.4.0"
+    "jolt-physics": "0.0.10",
+    "joystick-controller": "1.0.15",
+    "tsd-jsdoc": "2.5.0"
   }
 }

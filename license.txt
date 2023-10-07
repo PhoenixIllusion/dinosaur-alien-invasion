@@ -1,0 +1,8 @@
+
+Gray Skybox:
+CC-BY 3.0
+https://opengameart.org/users/spiney
+https://opengameart.org/content/cloudy-skyboxes
+
+HVGirl from BabylonJS
+https://github.com/BabylonJS/Assets/blob/master/Assets.md
